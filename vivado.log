@@ -1,0 +1,296 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Nov  9 06:54:22 2023
+# Process ID: 24156
+# Current directory: /home/ubuntu/course-lab_4_2
+# Command line: vivado
+# Log file: /home/ubuntu/course-lab_4_2/vivado.log
+# Journal file: /home/ubuntu/course-lab_4_2/vivado.jou
+# Running On: ubuntu2004, OS: Linux, CPU Frequency: 2495.998 MHz, CPU Physical cores: 2, Host memory: 16766 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+create_project project_1 /home/ubuntu/course-lab_4_2/project_1 -part xc7z020clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+add_files -norecurse {/home/ubuntu/course-lab_4_2/rtl/user/fir.v /home/ubuntu/course-lab_4_2/rtl/user/input_buffer.v /home/ubuntu/course-lab_4_2/rtl/user/user_proj_example.counter.v /home/ubuntu/course-lab_4_2/rtl/user/WB_AXI.v /home/ubuntu/course-lab_4_2/rtl/user/bram.v /home/ubuntu/course-lab_4_2/rtl/user/bram11.v}
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 2
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Thu Nov  9 07:01:10 2023] Launched synth_1...
+Run output will be captured here: /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 7692.359 ; gain = 0.000 ; free physical = 1767 ; free virtual = 6716
+INFO: [Netlist 29-17] Analyzing 143 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7700.363 ; gain = 0.000 ; free physical = 1677 ; free virtual = 6626
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 64 instances were transformed.
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 64 instances
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 7716.367 ; gain = 26.008 ; free physical = 1546 ; free virtual = 6498
+report_clock_networks -name {network_1}
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+create_clock -period 10.000 -name wb_clk_i -waveform {0.000 5.000} [get_ports wb_clk_i]
+file mkdir /home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new
+close [ open /home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc w ]
+add_files -fileset constrs_1 /home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc
+set_property target_constrs_file /home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+INFO: [Project 1-1160] Copying file /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/user_proj_example.dcp to /home/ubuntu/course-lab_4_2/project_1/project_1.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs synth_1 -jobs 2
+[Thu Nov  9 07:04:25 2023] Launched synth_1...
+Run output will be captured here: /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8183.188 ; gain = 0.000 ; free physical = 2589 ; free virtual = 6234
+INFO: [Netlist 29-17] Analyzing 143 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+Finished Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+set_input_delay -clock [get_clocks  "*"] 0.5 [get_ports [list io_in[0] io_in[1] io_in[2] io_in[3] io_in[4] io_in[5] io_in[6] io_in[7] io_in[8] io_in[9] io_in[10] io_in[11] io_in[12] io_in[13] io_in[14] io_in[15] io_in[16] io_in[17] io_in[18] io_in[19] io_in[20] io_in[21] io_in[22] io_in[23] io_in[24] io_in[25] io_in[26] io_in[27] io_in[28] io_in[29] io_in[30] io_in[31] io_in[32] io_in[33] io_in[34] io_in[35] io_in[36] io_in[37] la_data_in[0] la_data_in[1] la_data_in[2] la_data_in[3] la_data_in[4] la_data_in[5] la_data_in[6] la_data_in[7] la_data_in[8] la_data_in[9] la_data_in[10] la_data_in[11] la_data_in[12] la_data_in[13] la_data_in[14] la_data_in[15] la_data_in[16] la_data_in[17] la_data_in[18] la_data_in[19] la_data_in[20] la_data_in[21] la_data_in[22] la_data_in[23] la_data_in[24] la_data_in[25] la_data_in[26] la_data_in[27] la_data_in[28] la_data_in[29] la_data_in[30] la_data_in[31] la_data_in[32] la_data_in[33] la_data_in[34] la_data_in[35] la_data_in[36] la_data_in[37] la_data_in[38] la_data_in[39] la_data_in[40] la_data_in[41] la_data_in[42] la_data_in[43] la_data_in[44] la_data_in[45] la_data_in[46] la_data_in[47] la_data_in[48] la_data_in[49] la_data_in[50] la_data_in[51] la_data_in[52] la_data_in[53] la_data_in[54] la_data_in[55] la_data_in[56] la_data_in[57] la_data_in[58] la_data_in[59] la_data_in[60] la_data_in[61] la_data_in[62] la_data_in[63] la_data_in[64] la_data_in[65] la_data_in[66] la_data_in[67] la_data_in[68] la_data_in[69] la_data_in[70] la_data_in[71] la_data_in[72] la_data_in[73] la_data_in[74] la_data_in[75] la_data_in[76] la_data_in[77] la_data_in[78] la_data_in[79] la_data_in[80] la_data_in[81] la_data_in[82] la_data_in[83] la_data_in[84] la_data_in[85] la_data_in[86] la_data_in[87] la_data_in[88] la_data_in[89] la_data_in[90] la_data_in[91] la_data_in[92] la_data_in[93] la_data_in[94] la_data_in[95] la_data_in[96] la_data_in[97] la_data_in[98] la_data_in[99] la_data_in[100] la_data_in[101] la_data_in[102] la_data_in[103] la_data_in[104] la_data_in[105] la_data_in[106] la_data_in[107] la_data_in[108] la_data_in[109] la_data_in[110] la_data_in[111] la_data_in[112] la_data_in[113] la_data_in[114] la_data_in[115] la_data_in[116] la_data_in[117] la_data_in[118] la_data_in[119] la_data_in[120] la_data_in[121] la_data_in[122] la_data_in[123] la_data_in[124] la_data_in[125] la_data_in[126] la_data_in[127] la_oenb[0] la_oenb[1] la_oenb[2] la_oenb[3] la_oenb[4] la_oenb[5] la_oenb[6] la_oenb[7] la_oenb[8] la_oenb[9] la_oenb[10] la_oenb[11] la_oenb[12] la_oenb[13] la_oenb[14] la_oenb[15] la_oenb[16] la_oenb[17] la_oenb[18] la_oenb[19] la_oenb[20] la_oenb[21] la_oenb[22] la_oenb[23] la_oenb[24] la_oenb[25] la_oenb[26] la_oenb[27] la_oenb[28] la_oenb[29] la_oenb[30] la_oenb[31] la_oenb[32] la_oenb[33] la_oenb[34] la_oenb[35] la_oenb[36] la_oenb[37] la_oenb[38] la_oenb[39] la_oenb[40] la_oenb[41] la_oenb[42] la_oenb[43] la_oenb[44] la_oenb[45] la_oenb[46] la_oenb[47] la_oenb[48] la_oenb[49] la_oenb[50] la_oenb[51] la_oenb[52] la_oenb[53] la_oenb[54] la_oenb[55] la_oenb[56] la_oenb[57] la_oenb[58] la_oenb[59] la_oenb[60] la_oenb[61] la_oenb[62] la_oenb[63] la_oenb[64] la_oenb[65] la_oenb[66] la_oenb[67] la_oenb[68] la_oenb[69] la_oenb[70] la_oenb[71] la_oenb[72] la_oenb[73] la_oenb[74] la_oenb[75] la_oenb[76] la_oenb[77] la_oenb[78] la_oenb[79] la_oenb[80] la_oenb[81] la_oenb[82] la_oenb[83] la_oenb[84] la_oenb[85] la_oenb[86] la_oenb[87] la_oenb[88] la_oenb[89] la_oenb[90] la_oenb[91] la_oenb[92] la_oenb[93] la_oenb[94] la_oenb[95] la_oenb[96] la_oenb[97] la_oenb[98] la_oenb[99] la_oenb[100] la_oenb[101] la_oenb[102] la_oenb[103] la_oenb[104] la_oenb[105] la_oenb[106] la_oenb[107] la_oenb[108] la_oenb[109] la_oenb[110] la_oenb[111] la_oenb[112] la_oenb[113] la_oenb[114] la_oenb[115] la_oenb[116] la_oenb[117] la_oenb[118] la_oenb[119] la_oenb[120] la_oenb[121] la_oenb[122] la_oenb[123] la_oenb[124] la_oenb[125] la_oenb[126] la_oenb[127] wbs_adr_i[0] wbs_adr_i[1] wbs_adr_i[2] wbs_adr_i[3] wbs_adr_i[4] wbs_adr_i[5] wbs_adr_i[6] wbs_adr_i[7] wbs_adr_i[8] wbs_adr_i[9] wbs_adr_i[10] wbs_adr_i[11] wbs_adr_i[12] wbs_adr_i[13] wbs_adr_i[14] wbs_adr_i[15] wbs_adr_i[16] wbs_adr_i[17] wbs_adr_i[18] wbs_adr_i[19] wbs_adr_i[20] wbs_adr_i[21] wbs_adr_i[22] wbs_adr_i[23] wbs_adr_i[24] wbs_adr_i[25] wbs_adr_i[26] wbs_adr_i[27] wbs_adr_i[28] wbs_adr_i[29] wbs_adr_i[30] wbs_adr_i[31] wbs_cyc_i wbs_dat_i[0] wbs_dat_i[1] wbs_dat_i[2] wbs_dat_i[3] wbs_dat_i[4] wbs_dat_i[5] wbs_dat_i[6] wbs_dat_i[7] wbs_dat_i[8] wbs_dat_i[9] wbs_dat_i[10] wbs_dat_i[11] wbs_dat_i[12] wbs_dat_i[13] wbs_dat_i[14] wbs_dat_i[15] wbs_dat_i[16] wbs_dat_i[17] wbs_dat_i[18] wbs_dat_i[19] wbs_dat_i[20] wbs_dat_i[21] wbs_dat_i[22] wbs_dat_i[23] wbs_dat_i[24] wbs_dat_i[25] wbs_dat_i[26] wbs_dat_i[27] wbs_dat_i[28] wbs_dat_i[29] wbs_dat_i[30] wbs_dat_i[31] wbs_sel_i[0] wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3] wbs_stb_i wbs_we_i ]]
+save_constraints
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/ubuntu/course-lab_4_2/project_1/project_1.srcs/utils_1/imports/synth_1/user_proj_example.dcp with file /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/user_proj_example.dcp
+launch_runs synth_1 -jobs 2
+[Thu Nov  9 07:10:36 2023] Launched synth_1...
+Run output will be captured here: /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8201.027 ; gain = 0.000 ; free physical = 2600 ; free virtual = 6200
+INFO: [Netlist 29-17] Analyzing 143 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc:4]
+Finished Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+set_output_delay -clock [get_clocks  "*"] 1.0 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+save_constraints
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/ubuntu/course-lab_4_2/project_1/project_1.srcs/utils_1/imports/synth_1/user_proj_example.dcp with file /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/user_proj_example.dcp
+launch_runs synth_1 -jobs 2
+[Thu Nov  9 07:13:45 2023] Launched synth_1...
+Run output will be captured here: /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8219.973 ; gain = 0.000 ; free physical = 2574 ; free virtual = 6104
+INFO: [Netlist 29-17] Analyzing 143 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc:4]
+Finished Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+save_constraints
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/ubuntu/course-lab_4_2/project_1/project_1.srcs/utils_1/imports/synth_1/user_proj_example.dcp with file /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/user_proj_example.dcp
+launch_runs synth_1 -jobs 2
+[Thu Nov  9 07:16:32 2023] Launched synth_1...
+Run output will be captured here: /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8234.980 ; gain = 0.000 ; free physical = 2594 ; free virtual = 6084
+INFO: [Netlist 29-17] Analyzing 143 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc:4]
+Finished Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+save_constraints
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+save_constraints
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+save_constraints
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/ubuntu/course-lab_4_2/project_1/project_1.srcs/utils_1/imports/synth_1/user_proj_example.dcp with file /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/user_proj_example.dcp
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+save_constraints -force
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+launch_runs synth_1 -jobs 2
+[Thu Nov  9 07:22:07 2023] Launched synth_1...
+Run output will be captured here: /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8234.980 ; gain = 0.000 ; free physical = 2583 ; free virtual = 6033
+INFO: [Netlist 29-17] Analyzing 143 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc:4]
+Finished Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+save_constraints
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc:4]
+CRITICAL WARNING: [Designutils 20-1307] Command 'phys_opt_design' is not supported in the xdc constraint file. [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc:9]
+CRITICAL WARNING: [Designutils 20-1307] Command 'phys_opt_design' is not supported in the xdc constraint file. [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc:10]
+Finished Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc:4]
+Finished Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/ubuntu/course-lab_4_2/project_1/project_1.srcs/utils_1/imports/synth_1/user_proj_example.dcp with file /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/user_proj_example.dcp
+launch_runs synth_1 -jobs 2
+[Thu Nov  9 07:43:14 2023] Launched synth_1...
+Run output will be captured here: /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8258.629 ; gain = 0.000 ; free physical = 2578 ; free virtual = 5869
+INFO: [Netlist 29-17] Analyzing 143 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc:4]
+Finished Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+save_constraints
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+save_constraints
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+save_constraints
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+save_constraints
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+save_constraints
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/ubuntu/course-lab_4_2/project_1/project_1.srcs/utils_1/imports/synth_1/user_proj_example.dcp with file /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/user_proj_example.dcp
+launch_runs synth_1 -jobs 2
+[Thu Nov  9 07:50:38 2023] Launched synth_1...
+Run output will be captured here: /home/ubuntu/course-lab_4_2/project_1/project_1.runs/synth_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8284.578 ; gain = 0.000 ; free physical = 2552 ; free virtual = 5835
+INFO: [Netlist 29-17] Analyzing 143 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc:4]
+Finished Parsing XDC File [/home/ubuntu/course-lab_4_2/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 -file /home/ubuntu/course-lab_4_2/project_1/timing_report.txt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  9 08:49:26 2023...
